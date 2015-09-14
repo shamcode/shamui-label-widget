@@ -1,0 +1,20 @@
+{
+  "name": "shamui-label-widget",
+  "version": "0.0.1",
+  "devDependencies": {
+    "requirejs": "~2.1.10",
+    "shamui": ""
+  },
+  "moduleType": [
+      "amd"
+  ],
+  "authors": [
+    { "name": "Eugene Burnashov" },
+    { "name": "Eugene Burnashov", "email": "shamcode@gmail.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamcode/shamui-label-widget.git"
+  },
+  "main": "main.js"
+}
