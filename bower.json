@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "requirejs": "~2.1.10",
-    "shamui": ""
+    "shamui": "0.0.3"
   },
   "moduleType": [
       "amd"
@@ -16,5 +16,8 @@
     "type": "git",
     "url": "https://github.com/shamcode/shamui-label-widget.git"
   },
-  "main": "main.js"
+  "main": "main.js",
+  "ignore": [
+      "demo"
+  ]
 }
