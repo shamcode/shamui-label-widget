@@ -1,6 +1,6 @@
 require.config( {
     paths: {
-        "shamUI": "../bower_components/shamui/dist/shamUI"
+        "shamUI": "../bower_components/shamui/shamUI"
     }
 } );
 
