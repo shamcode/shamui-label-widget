@@ -1,2 +1,2 @@
 # shamui-label-widget
-Button widget for shamUI (https://github.com/shamcode/shamUI)
+Text label widget for shamUI (https://github.com/shamcode/shamUI)
