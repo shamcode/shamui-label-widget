@@ -1,5 +1,9 @@
-bower_components
+npm-debug.log
+node_modules
 
 .DS_Store
 .idea
 Thumbs.db
+
+/test/assets
+/lib/
