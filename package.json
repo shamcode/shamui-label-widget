@@ -1,8 +1,8 @@
 {
   "name": "sham-ui-label-widget",
-  "version": "0.0.3",
-  "main": "lib/shamUI.js",
-  "browser": "lib/shamUI.js",
+  "version": "0.0.4",
+  "main": "lib/sham-ui-lalbel-widget.js",
+  "browser": "lib/sham-ui-lalbel-widget.js",
   "repository": "https://github.com/shamcode/shamui-label-widget",
   "license": "MIT",
   "scripts": {

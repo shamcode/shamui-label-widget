@@ -1,24 +1,15 @@
 var fs = require( 'fs' );
 var webpack = require( 'webpack' );
-var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
-var env = process.env.WEBPACK_ENV;
 
 var libraryName = 'sham-ui-label-widget';
-var plugins = [], outputFile;
-
-if ( env === 'build' ) {
-    plugins.push( new UglifyJsPlugin( { minimize: true } ) );
-    outputFile = libraryName + '.min.js';
-} else {
-    outputFile = libraryName + '.js';
-}
+var plugins = [];
 
 var libraryConfig = {
     entry: __dirname + '/src/label.js',
     devtool: 'source-map',
     output: {
         path: __dirname + '/lib',
-        filename: outputFile,
+        filename: libraryName + '.js',
         library: libraryName,
         libraryTarget: 'umd',
         umdNamedDefine: true
